@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="TestNeedIt" max_length="40" name="x_58872_needit_testneedit" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_6" type="field_name"/>
+        <element label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_7" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_10" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_8" type="glide_list"/>
+        <element label="New Integer" max_length="40" name="u_integer_5" type="integer"/>
+        <element label="New Reference" max_length="32" name="u_reference_2" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_9" type="table_name"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
